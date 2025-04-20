@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo -e "\n\n Installing xacro package \n"
+sudo apt install ros-humble-xacro
+
 echo -e "\n\n Installing gazebo \n"
 sudo apt install ros-humble-gazebo-ros-pkgs
 
