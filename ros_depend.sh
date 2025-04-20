@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "\n\n Installing gazebo \n"
+echo -e "\n\n Installing gazebo \n"
 sudo apt install ros-humble-gazebo-ros-pkgs
 
 echo -e "\n\n Installing ros2_control \n"
