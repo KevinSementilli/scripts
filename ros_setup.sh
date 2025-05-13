@@ -42,6 +42,9 @@ sudo apt install libserial-dev -y
 echo -e "\n\n Installing Joy Node \n"
 sudo apt install ros-humble-joy -y
 
+echo -e "\n\n Installing rosdep \n"
+sudo apt install python3-rosdep -y
+
 echo -e "\n\n Installing gazebo \n"
 sudo apt install ros-humble-gazebo-ros-pkgs
 
@@ -49,3 +52,5 @@ echo -e "\n\n ALL DONE!! \n"
 
 # Source ROS 2 setup and update bashrc
 echo -e "\n\n Run the following command in home directory \n\n source /opt/ros/humble/setup.bash \n echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc"
+
+echo -e "\n\e[1,31mUse rosdep to install other dependencies when you clone or create your first package\e[0m"
