@@ -27,5 +27,25 @@ sudo apt install -y python3-colcon-common-extensions
 
 echo -e "\n\n ROS 2 Humble setup complete!"
 
+echo -e "\n\n Installing Xacro Package \n"
+sudo apt install ros-humble-xacro -y
+
+echo -e "\n\n Installing ros2_control \n"
+sudo apt install ros-humble-ros2-control ros-humble-ros2-controllers -y
+
+echo -e "\n\n Installing rqt \n"
+sudo apt install ros-humble-rqt -y
+
+echo -e "\n\n Installing serial library for uart protocol \n"
+sudo apt install libserial-dev -y
+
+echo -e "\n\n Installing Joy Node \n"
+sudo apt install ros-humble-joy -y
+
+echo -e "\n\n Installing gazebo \n"
+sudo apt install ros-humble-gazebo-ros-pkgs
+
+echo -e "\n\n ALL DONE!! \n"
+
 # Source ROS 2 setup and update bashrc
-echo -e "\n\n Run the following command in home directory \n\n source /opt/ros/humble/setup.bash \n echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+echo -e "\n\n Run the following command in home directory \n\n source /opt/ros/humble/setup.bash \n echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc"
